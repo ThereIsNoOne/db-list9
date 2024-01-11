@@ -12,8 +12,7 @@ public class Main {
 
     public static void main(String[] args) {
         factory = Persistence.createEntityManagerFactory("default");
-        Main.manager = factory.createEntityManager();
-        EntityManager manager = Main.manager;
+        manager = factory.createEntityManager();
 
         ex1();
         ex2();
